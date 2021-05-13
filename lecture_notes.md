@@ -101,7 +101,7 @@ fi
 
 Then we need to symlink our files
 ```bash
-ln -s dotfiles/vimrc $VIMRC
-ln -s dotfiles/bashrc $BASHRC
+ln -sf $1/vimrc $VIMRC
+ln -sf $1/bashrc $BASHRC
 ```
 And then we are done!

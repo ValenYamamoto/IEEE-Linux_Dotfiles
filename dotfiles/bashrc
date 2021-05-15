@@ -4,4 +4,4 @@ alias memcheck='valgrind --tool=memcheck --leak-check=yes --show-reachable=yes -
 
 export EDITOR=vim
 export VISUAL=vim
-export PS1='\[\e[0;95m\]\u\[\e[0;91m\]@\[\e[0;96m\]\h\[\e[0m\]:\[\e[0m\]\w\[\e[0m\]$\[\e[0m\]'
+PS1='\[\e[0;95m\]\u\[\e[0;91m\]@\[\e[0;96m\]\h\[\e[0m\]:\[\e[0m\]\w\[\e[0m\]$\[\e[0m\]'

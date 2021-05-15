@@ -1,5 +1,21 @@
 # IEEE@UCI Linux Dotfiles
 
+## Overview
+- [IEEE@UCI Linux Dotfiles](#ieeeuci-linux-dotfiles)
+  - [Overview](#overview)
+  - [What is a Dotfile](#what-is-a-dotfile)
+  - [.bashrc](#bashrc)
+    - [What to put in your .bashrc](#what-to-put-in-your-bashrc)
+      - [Aliases](#aliases)
+      - [Default Editors](#default-editors)
+      - [Custom Prompt](#custom-prompt)
+      - [Other setup stuff](#other-setup-stuff)
+  - [.vimrc](#vimrc)
+    - [What to put in your .vimrc](#what-to-put-in-your-vimrc)
+  - [Symlinking Script](#symlinking-script)
+    - [What is a Symlink?](#what-is-a-symlink)
+    - [Symlink Bash Script](#symlink-bash-script)
+  - [More Resources](#more-resources)
 ## What is a Dotfile
 Dotfiles are configuration files for Unix systems, usually with names that start with a dot (hence dotfiles). 
 
@@ -105,3 +121,11 @@ ln -sf $1/vimrc $VIMRC
 ln -sf $1/bashrc $BASHRC
 ```
 And then we are done!
+
+## More Resources
+[More Stuff to Put in your Vimrc](https://dougblack.io/words/a-good-vimrc.html
+)
+[Overview of Bashrc](https://www.routerhosting.com/knowledge-base/what-is-linux-bashrc-and-how-to-use-it-full-guide/
+)
+[On some other dotfiles](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
+)

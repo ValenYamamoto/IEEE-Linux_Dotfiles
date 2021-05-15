@@ -125,7 +125,9 @@ And then we are done!
 ## More Resources
 [More Stuff to Put in your Vimrc](https://dougblack.io/words/a-good-vimrc.html
 )
+
 [Overview of Bashrc](https://www.routerhosting.com/knowledge-base/what-is-linux-bashrc-and-how-to-use-it-full-guide/
 )
+
 [On some other dotfiles](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
 )

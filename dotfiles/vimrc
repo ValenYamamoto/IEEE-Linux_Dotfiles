@@ -154,6 +154,12 @@ if has('langmap') && exists('+langremap')
 endif
 
 set nu
-filetype indent on
 set autoindent
-filetype plugin on
+set background=dark
+syntax on
+filetype indent plugin on
+
+" autocmd BufNewFile,BufRead *.launch set syntax=xml
+augroup filetypedetect
+	au BufRead, BufNewFile *.launch setfiletype xml
+augroup end
